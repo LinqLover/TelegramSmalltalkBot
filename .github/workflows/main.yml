@@ -2,12 +2,16 @@ name: smalltalkCI
 
 on: [push, pull_request]
 
-steps:
-  - uses: actions/checkout@v2
-  - uses: hpi-swa/setup-smalltalkCI@v1
-    with:
-      smalltalk-version: Squeak64-Trunk
-  - name: Run test suite
-    shell: bash
-    run: smalltalkci -s -s ${{ steps.smalltalkci.outputs.smalltalk-version }}
-    timeout-minutes: 15
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: hpi-swa/setup-smalltalkCI@v1
+        with:
+          smalltalk-version: Squeak64-Trunk
+      - name: Run test suite
+        shell: bash
+        run: smalltalkci -s -s ${{ steps.smalltalkci.outputs.smalltalk-version }}
+        timeout-minutes: 15

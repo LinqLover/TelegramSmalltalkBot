@@ -10,6 +10,8 @@ setUp
 		(TelegramSmalltalkBot newSubclass
 			environment: self environment;
 			addInstVarName: watcherName)
+			compile: 'name
+		^ ''test bot''';
 			compile: 'handlesMessage: aMessage
 		^ true'; flag: #workaround;
 			compile: 'sendMessage: aMessage

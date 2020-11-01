@@ -30,7 +30,7 @@ makeMessageFrom: anObject
 				newText
 					addAttribute: (TBTextCommand
 						readFrom: subtext string
-						forBotNamed: nil)
+						forBotNamed: bot name)
 					from: range start
 					to: range stop]].
 		message text: newText].

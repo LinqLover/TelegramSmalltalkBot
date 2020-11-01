@@ -1,0 +1,17 @@
+{
+	"category" : "TelegramSmalltalkBot-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ct 10/3/2020 21:57",
+	"instvars" : [
+		"bot",
+		"lastMessageId",
+		"receivedMessages",
+		"editedMessages" ],
+	"name" : "TelegramSmalltalkBotTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

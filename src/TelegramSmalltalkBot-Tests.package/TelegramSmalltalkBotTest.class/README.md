@@ -1,0 +1,1 @@
+I provide acceptance tests for the TelegramSmalltalkBot. An ugly kind of mocking is used for isolating the bot class from the API, which should probably be replaced by composition. See #setUp and note in the class comment of TelegramBot.

@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"basicRecordAnswer:" : "ct 9/29/2020 14:23",
+		"basicRecordResult:forMessage:" : "ct 9/29/2020 14:23",
+		"bindingOf:" : "ct 9/9/2020 13:59",
+		"doSafely:ifError:" : "ct 10/3/2020 20:35",
+		"evaluate:for:ifError:" : "ct 10/3/2020 18:46",
+		"initialize" : "ct 10/2/2020 15:51",
+		"maximumRecordSize" : "ct 10/3/2020 21:55",
+		"mustDeclareVariables" : "ct 9/9/2020 13:52",
+		"notify:at:in:" : "ct 9/29/2020 14:08",
+		"pinRecord:to:" : "ct 9/29/2020 14:23",
+		"processMessage:ifError:" : "ct 10/3/2020 14:34",
+		"receiverFor:" : "ct 10/3/2020 16:05",
+		"record:fromAnswer:bot:" : "ct 10/2/2020 15:27",
+		"recordedAnswerTo:ifAbsent:" : "ct 9/29/2020 14:24",
+		"reset" : "ct 10/2/2020 16:01",
+		"scheduleRecord:fromAnswer:" : "ct 10/2/2020 15:52",
+		"tidyUpRecords:" : "ct 9/29/2020 14:19",
+		"wantsInteractiveErrorCorrection" : "ct 9/9/2020 13:47" } }

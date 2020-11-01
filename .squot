@@ -1,0 +1,5 @@
+OrderedDictionary {
+	'src\/TelegramSmalltalkBot-Core.package' : #SquotCypressCodeSerializer,
+	'src\/TelegramSmalltalkBot-Tests.package' : #SquotCypressCodeSerializer,
+	'src\/BaselineOfTelegramSmalltalkBot.package' : #SquotCypressCodeSerializer
+}

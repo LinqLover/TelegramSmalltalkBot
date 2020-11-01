@@ -1,0 +1,5 @@
+I implement the @SqueakSmalltalkBot's logic on Telegram. I am a subclass of TelegramBot from the Telegram Bot framework for Squeak/Smalltalk. My vision is to support passionate Squeakers stay in contact with their image via any platform if they are away from keyboard, simply by sending Smalltalk code to me. My skills include displaying Smalltalk objects via the commands /do, /print, and /inspect, using multimedia representations if appropriate, providing a Workspace-like session environment in which users can store and access variable, and proposing a new kind of scripting workflow which provides a receiver context from the specific message the user is replying to.
+
+For an exhaustive list of my features, check out the help.
+
+For debugging purposes, you can set the #isDebugging flag; otherwise, errors occuring while processing a command will be suppressed and sent to the user.

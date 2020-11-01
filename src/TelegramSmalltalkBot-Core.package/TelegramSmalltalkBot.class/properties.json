@@ -1,0 +1,15 @@
+{
+	"category" : "TelegramSmalltalkBot-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ct 10/3/2020 21:28",
+	"instvars" : [
+		"sessions",
+		"isDebugging" ],
+	"name" : "TelegramSmalltalkBot",
+	"pools" : [
+		 ],
+	"super" : "TelegramBot",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "TelegramSmalltalkBot-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ct 10/3/2020 21:55",
+	"instvars" : [
+		"bindings",
+		"answers",
+		"pinnedAnswers",
+		"results",
+		"pinnedResults",
+		"pinnedClosures" ],
+	"name" : "TelegramSmalltalkSession",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

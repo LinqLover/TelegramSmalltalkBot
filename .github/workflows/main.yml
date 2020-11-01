@@ -16,3 +16,5 @@ jobs:
         shell: bash
         run: smalltalkci -s ${{ steps.smalltalkci.outputs.smalltalk-version }}
         timeout-minutes: 15
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -14,5 +14,5 @@ jobs:
           smalltalk-version: Squeak64-Trunk
       - name: Run test suite
         shell: bash
-        run: smalltalkci -s -s ${{ steps.smalltalkci.outputs.smalltalk-version }}
+        run: smalltalkci -s ${{ steps.smalltalkci.outputs.smalltalk-version }}
         timeout-minutes: 15

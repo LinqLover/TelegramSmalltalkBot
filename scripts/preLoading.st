@@ -2,4 +2,4 @@
 SCIMetacelloLoadSpec updateMetacello.
 
 "Actual credentials configuration"
-MCFetchGithubRepository sitePassword: (SmalltalkCI getEnv: 'GITHUB_TOKEN').
+MCFetchGithubRepository sitePassword: (SmalltalkCI getEnv: 'GH_ACCESS_TOKEN').

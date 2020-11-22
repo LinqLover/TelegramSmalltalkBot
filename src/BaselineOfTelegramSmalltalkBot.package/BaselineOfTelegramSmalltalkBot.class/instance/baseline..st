@@ -15,6 +15,7 @@ baseline: spec
 		"packages"
 		spec
 			package: 'TelegramSmalltalkBot-Core' with: [
-				spec requires: #('TelegramBot')];
+				spec requires: #('TelegramBot').
+				spec postLoadDoIt: #installPreviewDependencies];
 			package: 'TelegramSmalltalkBot-Tests' with: [
 				spec requires: #('TelegramSmalltalkBot-Core' 'JSON')]].

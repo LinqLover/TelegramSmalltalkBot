@@ -1,0 +1,17 @@
+SmalltalkCISpec {
+    #preLoading : 'scripts/preLoading.st',
+	#loading : [
+		SCIMetacelloLoadSpec {
+			#baseline : 'TelegramSmalltalkBot',
+			#directory : 'src',
+			#platforms : [ #squeak ],
+			#load : [ 'TelegramSmalltalkBot-Tests' ]
+		}
+	],
+	#testing : {
+		#packages : [ 'TelegramSmalltalkBot-Tests' ],
+		#coverage : {
+			#packages : [ 'TelegramSmalltalkBot-Core' ]
+		}
+	}
+}

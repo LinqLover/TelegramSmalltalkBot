@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"asTelegramSmalltalkBotMessageFor:" : "ct 10/2/2020 18:49" } }
+		"asTelegramSmalltalkBotMessageFor:" : "ct 10/2/2020 18:49",
+		"tbWithoutLineEndings" : "ct 9/9/2020 12:04" } }

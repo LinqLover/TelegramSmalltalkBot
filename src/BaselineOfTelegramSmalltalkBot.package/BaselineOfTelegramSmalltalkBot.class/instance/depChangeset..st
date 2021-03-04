@@ -1,9 +1,13 @@
 scripts
 depChangeset: urlString
 
-	| url |
+	| url response |
 	url := Url absoluteFromText: urlString.
+	response := WebClient httpGet: url downloadUrl.
+	response isSuccess ifFalse: [
+		self error: ('Cannot load changeset from {1}: {2}'
+			format: {urlString. response status})].
 	^ url fileName -> [
 		| contents |
-		contents := url retrieveContents.
-		contents contentStream fileIn]
+		contents := response content.
+		contents readStream fileIn]

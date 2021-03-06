@@ -1,0 +1,4 @@
+repository
+repositoryStub
+
+	^ 'LinqLover/TelegramSmalltalkBot'

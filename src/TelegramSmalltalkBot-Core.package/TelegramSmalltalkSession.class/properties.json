@@ -4,14 +4,16 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ct 10/3/2020 21:55",
+	"commentStamp" : "ct 3/6/2021 02:15",
 	"instvars" : [
 		"bindings",
 		"answers",
 		"pinnedAnswers",
 		"results",
 		"pinnedResults",
-		"pinnedClosures" ],
+		"pinnedClosures",
+		"isolationEnabled",
+		"sandboxMemory" ],
 	"name" : "TelegramSmalltalkSession",
 	"pools" : [
 		 ],

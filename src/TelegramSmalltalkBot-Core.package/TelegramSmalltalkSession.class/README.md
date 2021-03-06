@@ -10,23 +10,3 @@ Instance Variables
 
 # Pinning
 To serve scalability when running a bot with many frequent users, I support automatic recycling of older session contents ("records") by making use of the GC. To implement this, the relevant records theirselves (answers and results) are hold using weak references only, and a limittable list of the most recent records is kept in memory using the pinned collections. See #tidyUpRecords: for releasing older records.
-
-
-
-answers
-	- xxxxx
-
-bindings
-	- xxxxx
-
-pinnedAnswers
-	- xxxxx
-
-pinnedClosures
-	- xxxxx
-
-pinnedResults
-	- xxxxx
-
-results
-	- xxxxx

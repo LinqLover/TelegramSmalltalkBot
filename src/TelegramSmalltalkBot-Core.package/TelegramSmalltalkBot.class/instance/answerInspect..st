@@ -5,7 +5,9 @@ answerInspect: aMessage
 	^ self processMessage: aMessage andDo: [:result |
 		| fields |
 		fields := (Inspector inspect: result) fields
-			collect: [:field | field name -> ([field shouldPrintValueAsIs
+			collect: [:field | (field name asStringOrText asText removeAttributesThat: [:attrib |
+					attrib isSupportedByTelegramBot not]
+				) -> ([field shouldPrintValueAsIs
 				ifTrue: [field value asStringOrText]
 				ifFalse: [field value printString]]
 					ifError: [self errorText: '<error in #printString>'])]

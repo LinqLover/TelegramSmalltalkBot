@@ -2,7 +2,9 @@ scripts
 installPreviewDependencies
 
 	| dependencies |
-	self flag: #workaround. "As soon as the versions listed here get merged, this should be removed"
+	self
+		flag: #workaround; "As soon as the versions listed here get merged, this should be removed"
+		flag: #duplication. "See BaselineOfTelegramBot>>#installPreviewDependencies"
 	
 	dependencies := {
 		"Text >> #beAllBold"

@@ -9,7 +9,7 @@ baseline: spec
 				spec
 					repository: 'github://LinqLover/TelegramBot/src';
 					loads: #minimal];
-			baseline: 'Sandbox' with: [
+			baseline: 'SimulationStudio' with: [
 				spec
 					repository: 'github://LinqLover/SimulationStudio/packages';
 					loads: 'SimulationStudio-Sandbox'];
@@ -19,7 +19,7 @@ baseline: spec
 		"packages"
 		spec
 			package: 'TelegramSmalltalkBot-Core' with: [
-				spec requires: #('TelegramBot' 'Sandbox').
+				spec requires: #('TelegramBot' 'SimulationStudio-Sandbox').
 				spec postLoadDoIt: #installPreviewDependencies];
 			package: 'TelegramSmalltalkBot-Tests' with: [
 				spec requires: #('TelegramSmalltalkBot-Core' 'JSON')]].

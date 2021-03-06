@@ -8,9 +8,7 @@ makeMessageFrom: anObject
 	message := JsonObject new
 		at: #text put: anObject;
 		at: #messageId put: self nextMessageId;
-		at: #from put: (JsonObject new
-			at: #id put: self clientChatId;
-			yourself);
+		at: #from put: self makeChat;
 		at: #chat put: (JsonObject new
 			at: #id put: self clientChatId;
 			at: #type put: #private;

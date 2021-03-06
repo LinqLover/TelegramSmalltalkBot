@@ -11,7 +11,7 @@ baseline: spec
 					loads: #minimal];
 			baseline: 'Sandbox' with: [
 				spec
-					repository: 'github://LinqLover/SimulationStudio';
+					repository: 'github://LinqLover/SimulationStudio/packages';
 					loads: 'SimulationStudio-Sandbox'];
 			package: 'JSON' with: [
 				spec repository: 'https://www.squeaksource.com/PostgresV3'].

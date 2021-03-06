@@ -1,0 +1,4 @@
+private
+secrets
+
+	^ TelegramSmalltalkBot secrets

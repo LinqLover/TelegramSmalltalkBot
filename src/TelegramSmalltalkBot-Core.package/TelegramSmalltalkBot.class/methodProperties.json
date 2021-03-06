@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"secrets" : "ct 3/6/2021 13:17" },
 	"instance" : {
 		"answerCommand:message:" : "ct 10/3/2020 14:47",
 		"answerDo:" : "ct 10/3/2020 14:57",

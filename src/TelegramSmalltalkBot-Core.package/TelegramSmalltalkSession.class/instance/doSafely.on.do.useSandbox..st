@@ -32,7 +32,7 @@ doSafely: aBlock on: exceptionHandler do: exceptionBlock useSandbox: shouldUseSa
 			self flag: #todo. "A mechanism for warning the user without aborting execution - maybe resume after Warnings by default? But would break threading structure. Or write all warnings into single message?"]].
 	
 	self flag: #hack. "Problem: Secret could be anywhere deeply nested in a real object"
-	(self secrets anySatisfy: [:secret | (result longPrintString ifNil: ['']) includesSubstring: secret])
+	(self secrets anySatisfy: [:secret | (result longPrintString ifNil: ['']) includesSubstring: (secret ifNil: [''])])
 		ifTrue: [^ nil].
 	
 	^ result

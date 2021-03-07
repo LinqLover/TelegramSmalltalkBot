@@ -2,6 +2,7 @@
 	"class" : {
 		"repositoryStub" : "ct 3/6/2021 04:12",
 		"repositoryUrl" : "ct 3/6/2021 04:12",
+		"repositoryUrlAboutIsolation" : "ct 3/7/2021 17:31",
 		"secrets" : "ct 3/6/2021 13:17" },
 	"instance" : {
 		"answerCommand:message:" : "ct 10/3/2020 14:47",
@@ -10,7 +11,7 @@
 		"answerPrint:" : "ct 10/3/2020 14:57",
 		"doHelp:" : "ct 3/6/2021 04:08",
 		"doReset:" : "ct 10/3/2020 18:39",
-		"doStart:" : "ct 3/6/2021 04:11",
+		"doStart:" : "ct 3/7/2021 20:25",
 		"editMessage:changeTo:" : "ct 10/3/2020 18:48",
 		"errorText:" : "ct 10/3/2020 14:48",
 		"exceptionText:" : "ct 10/3/2020 14:48",
@@ -34,4 +35,5 @@
 		"processMessage:andDo:ifError:" : "ct 10/3/2020 14:59",
 		"removeSession:ifAbsent:" : "ct 10/3/2020 16:08",
 		"replyMessage:withHtmls:" : "ct 3/6/2021 04:08",
+		"replyMessage:withHtmls:beforeSendDo:" : "ct 3/7/2021 23:39",
 		"sessionFor:" : "ct 10/3/2020 16:13" } }

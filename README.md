@@ -54,6 +54,8 @@ If you experience any problems, please [create an issue](https://github.com/Linq
 
    You can find out your own chat ID by browsing the sessions object of your running bot instance using an object explorer, or by inspecting the result of `bot peekUpdates` after sending a message to the bot.
 
+   For more information on how to run the bot, read the docs of the [TelegramBot framework](https://github.com/LinqLover/TelegramBot#usage).
+
 Configuration of the bot (e.g. to turn off isolation and quota mechanisms) is currently only supported by editing the source code, though it contains some applicable hooks such as `TelegramSmalltalkSession >> #isolationEnabled`.
 If you miss a certain configuration hook or extension point, please create an issue or a pull request.
 

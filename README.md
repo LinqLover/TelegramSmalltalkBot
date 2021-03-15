@@ -12,6 +12,17 @@ Implemented using the [TelegramBot framework](https://github.com/LinqLover/Teleg
 	<a href="https://youtu.be/HZCeThLqQmg"><img src="https://github.com/LinqLover/TelegramSmalltalkBot/raw/master/img/screencast.gif" width="38.6%" alt="Screencast of a Telegram chat."></img></a>
 </p>
 
+Currently available features include, but are not limited to:
+
+- Evaluate arbitrary Smalltalk expressions
+- Multi-user object memory with isolated execution to rule out global side effects in the image
+- Select the receiver context (`self`) for your expressions by replying to a specific previous message of the bot
+- Edit your messages and answers from the bot will be updated as well
+- Multi-media representations of various Smalltalk objects such as `Text`, `Form`, `AnimatedImageMorph`, `AbstractSound`, and others
+- Bot commands to create different views of expression results such as `/do`, `/print`, and `inspect`
+
+To learn more about all capabilities, just [try it out](#try-it-out) and send the `/help` command.
+
 There is also a [screencast available on YouTube](https://youtu.be/HZCeThLqQmg).
 
 ## Try it out!

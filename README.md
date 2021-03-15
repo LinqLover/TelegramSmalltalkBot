@@ -7,15 +7,19 @@
 A Telegram bot that connects you to a remote [Squeak/Smalltalk](https://squeak.org/) image and allows you to explore it by sending Smalltalk expressions to the bot.
 Implemented using the [TelegramBot framework](https://github.com/LinqLover/TelegramBot) and [SimulationStudio](https://github.com/LinqLover/SimulationStudio) for sandboxed execution.
 
-[![Screenshot of a Telegram chat with the following messages sent to the bot: `Smalltalk version`, `3 + 4 * 6`, and `Display := Form extent: 600 asPoint depth: 32. Pen new mandala: 30. Display`.](/img/screenshot1.png | width=50%)](/img/screenshot1.png)
-[![Screencast of a Telegram chat.](/img/screencast.gif | width=50%)](https://youtu.be/HZCeThLqQmg)
+<p align="center">
+	<a href="https://github.com/LinqLover/TelegramSmalltalkBot/blob/master/img/screenshot1.png"><img src="https://github.com/LinqLover/TelegramSmalltalkBot/raw/master/img/screenshot1.png" width="42%" hspace="5%" alt="Screenshot of a Telegram chat with the following messages sent to the bot: `Smalltalk version`, `3 + 4 * 6`, and `Display := Form extent: 600 asPoint depth: 32. Pen new mandala: 30. Display`."></img></a>
+	<a href="https://youtu.be/HZCeThLqQmg"><img src="https://github.com/LinqLover/TelegramSmalltalkBot/raw/master/img/screencast.gif" width="38.6%" alt="Screencast of a Telegram chat."></img></a>
+</p>
+
+There is also a [screencast available on YouTube](https://youtu.be/HZCeThLqQmg).
 
 ## Try it out!
 
 An instance of the bot is live under [@SqueakSmalltalkBot](https://t.me/SqueakSmalltalkBot).
 Just send it a message and say hello!
 
-[![@SqueakSmalltalkBot](/img/banner.svg | height=50px)](https://t.me/SqueakSmalltalkBot)
+<a href="https://t.me/SqueakSmalltalkBot"><img src="https://github.com/LinqLover/TelegramSmalltalkBot/raw/master/img/banner.svg" height="50px" alt="@SqueakSmalltalkBot"></img></a>
 
 If you experience any problems, please [create an issue](https://github.com/LinqLover/TelegramSmalltalkBot/issues/new/choose).
 

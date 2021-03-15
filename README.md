@@ -15,7 +15,7 @@ Implemented using the [TelegramBot framework](https://github.com/LinqLover/Teleg
 An instance of the bot is live under [@SqueakSmalltalkBot](https://t.me/SqueakSmalltalkBot).
 Just send it a message and say hello!
 
-[![@SqueakSmalltalkBot](/img/banner.png | height=50px)](https://t.me/SqueakSmalltalkBot)
+[![@SqueakSmalltalkBot](/img/banner.svg | height=50px)](https://t.me/SqueakSmalltalkBot)
 
 If you experience any problems, please [create an issue](https://github.com/LinqLover/TelegramSmalltalkBot/issues/new/choose).
 

@@ -17,7 +17,7 @@ jobs:
           smalltalk-image: Squeak64-Trunk
       - name: Run test suite
         shell: bash
-        run: smalltalkci -s ${{ steps.smalltalkci.outputs.smalltalk-version }}
+        run: smalltalkci -s ${{ steps.smalltalkci.outputs.smalltalk-image }}
         timeout-minutes: 15
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

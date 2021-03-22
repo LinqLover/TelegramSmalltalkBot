@@ -38,6 +38,5 @@
 		"processMessage:andDo:ifError:" : "ct 10/3/2020 14:59",
 		"removeSession:ifAbsent:" : "ct 10/3/2020 16:08",
 		"replyMessage:withHtml:" : "ct 3/7/2021 23:39",
-		"replyMessage:withHtmls:" : "ct 3/6/2021 04:08",
 		"replyMessage:withHtmls:beforeSendDo:" : "ct 3/7/2021 23:39",
 		"sessionFor:" : "ct 10/3/2020 16:13" } }

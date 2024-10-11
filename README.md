@@ -70,6 +70,8 @@ If you experience any problems, please [create an issue](https://github.com/Linq
 Configuration of the bot (e.g. to turn off isolation and quota mechanisms) is currently only supported by editing the source code, though it contains some applicable hooks such as `TelegramSmalltalkSession >> #isolationEnabled`.
 If you miss a certain configuration hook or extension point, please create an issue or a pull request.
 
+For more information on the architecture and set-up of this bot, please refer to [this overview](https://linqlover.github.io/LinqLover/slides/SqueakEv21W%20TelegramBot.pdf#page=2).
+
 There is also an inofficial setup tutorial available that was written by [@cstes](https://github.com/cstes): [Running a TelegramSmalltalkBot in a minimal zone on Oracle Solaris 11](https://master.dl.sourceforge.net/project/solaris-squeak/tbot21.pdf) ([mirror](https://web.archive.org/web/20231128210657/https://master.dl.sourceforge.net/project/solaris-squeak/tbot21.pdf?viasf=1))
 
 ## Development
